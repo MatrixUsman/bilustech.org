@@ -160,7 +160,7 @@ export default function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white dark:placeholder-gray-400 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
                       placeholder="John Doe"
                     />
                   </div>
@@ -177,7 +177,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white dark:placeholder-gray-400 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
                       placeholder="john@example.com"
                     />
                   </div>
@@ -194,7 +194,7 @@ export default function Contact() {
                       value={formData.phone}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white dark:placeholder-gray-400 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
                       placeholder="(555) 123-4567"
                     />
                   </div>
@@ -211,7 +211,7 @@ export default function Contact() {
                       value={formData.company}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white dark:placeholder-gray-400 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
                       placeholder="Your Company"
                     />
                   </div>
@@ -253,7 +253,7 @@ export default function Contact() {
                       value={formData.subject}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white dark:placeholder-gray-400 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition"
                       placeholder="Quote request for..."
                     />
                   </div>
@@ -270,7 +270,7 @@ export default function Contact() {
                       onChange={handleChange}
                       required
                       rows={5}
-                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition resize-vertical"
+                      className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 dark:bg-slate-600 dark:text-white dark:placeholder-gray-400 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent outline-none transition resize-vertical"
                       placeholder="Please describe your requirements, specifications, or any questions..."
                     />
                   </div>
