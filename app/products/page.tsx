@@ -1,7 +1,22 @@
 export const metadata = {
   title: 'Products - BilusTech LLC | Electrical Panels, Networking, CCTV',
   description:
-    'Browse our comprehensive catalog of low voltage equipment including electrical panels, networking solutions, and CCTV systems.',
+    'Browse our comprehensive catalog of low voltage equipment including electrical panels, networking solutions, and CCTV systems. 27+ products available.',
+  keywords: 'electrical panels, networking equipment, CCTV systems, low voltage, distribution panels, network cabling',
+  openGraph: {
+    title: 'Products - BilusTech LLC',
+    description: 'Complete catalog of electrical panels, networking equipment, and CCTV systems',
+    type: 'website',
+    url: 'https://bilustech.com/products',
+    images: [
+      {
+        url: 'https://bilustech.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'BilusTech Products',
+      },
+    ],
+  },
 };
 
 export default function Products() {

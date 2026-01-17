@@ -1,6 +1,28 @@
 'use client';
 
 import { useState } from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Get a Quote - BilusTech LLC | Contact Us',
+  description:
+    'Request a custom quote for electrical panels, networking equipment, or CCTV systems. Fast response times, competitive pricing.',
+  keywords: 'quote request, contact, electrical panels quote, networking quote, CCTV quote',
+  openGraph: {
+    title: 'Get a Quote - BilusTech LLC',
+    description: 'Request a professional quote for low voltage equipment',
+    type: 'website',
+    url: 'https://bilustech.com/contact',
+    images: [
+      {
+        url: 'https://bilustech.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'BilusTech Contact',
+      },
+    ],
+  },
+};
 
 export default function Contact() {
   const [formData, setFormData] = useState({

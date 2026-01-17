@@ -1,0 +1,52 @@
+{
+    "name": "BilusTech LLC",
+    "short_name": "BilusTech",
+    "description": "Professional Low Voltage Equipment Supplier",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#003d82",
+    "background_color": "#ffffff",
+    "categories": ["business", "services"],
+    "icons": [{
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [{
+        "src": "/og-image.png",
+        "sizes": "1200x630",
+        "type": "image/png",
+        "form_factor": "wide"
+    }],
+    "shortcuts": [{
+            "name": "Get a Quote",
+            "short_name": "Quote",
+            "description": "Request a quote for low voltage equipment",
+            "url": "/contact",
+            "icons": [{
+                "src": "/favicon.svg",
+                "sizes": "192x192"
+            }]
+        },
+        {
+            "name": "View Products",
+            "short_name": "Products",
+            "description": "Browse our product catalog",
+            "url": "/products",
+            "icons": [{
+                "src": "/favicon.svg",
+                "sizes": "192x192"
+            }]
+        }
+    ]
+}

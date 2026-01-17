@@ -1,6 +1,10 @@
 export const metadata = {
   title: 'Terms & Conditions - BilusTech LLC',
-  description: 'Terms and conditions for BilusTech LLC website and services.',
+  description: 'Terms and conditions for BilusTech LLC website and services. Please read carefully before using our services.',
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function Terms() {

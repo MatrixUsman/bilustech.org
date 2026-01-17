@@ -1,7 +1,22 @@
 export const metadata = {
-  title: 'About BilusTech LLC - Low Voltage Equipment Supplier',
+  title: 'About BilusTech LLC - Professional Low Voltage Equipment Supplier',
   description:
-    'Learn about BilusTech LLC, a professional low voltage equipment supplier based in Albuquerque, New Mexico serving businesses across the USA.',
+    'Learn about BilusTech LLC, a trusted low voltage equipment supplier based in Albuquerque, NM. Years of industry experience serving businesses nationwide.',
+  keywords: 'about us, low voltage supplier, professional, Albuquerque, New Mexico, industry experience',
+  openGraph: {
+    title: 'About BilusTech LLC',
+    description: 'Professional low voltage equipment supplier with years of industry expertise',
+    type: 'website',
+    url: 'https://bilustech.com/about',
+    images: [
+      {
+        url: 'https://bilustech.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'About BilusTech',
+      },
+    ],
+  },
 };
 
 export default function About() {

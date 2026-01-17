@@ -1,6 +1,10 @@
 export const metadata = {
   title: 'Privacy Policy - BilusTech LLC',
-  description: 'Privacy policy for BilusTech LLC website and services.',
+  description: 'Privacy policy for BilusTech LLC. Learn how we collect, use, and protect your personal information.',
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function Privacy() {

@@ -1,5 +1,25 @@
 import Link from 'next/link';
 
+export const metadata = {
+  title: "BilusTech LLC - Professional Low Voltage Equipment Supplier",
+  description:
+    "Quality electrical panels, networking equipment, and CCTV systems for businesses. Competitive pricing, expert support, USA coverage.",
+  openGraph: {
+    title: "BilusTech LLC - Low Voltage Equipment Supplier",
+    description: "Professional low voltage equipment for electrical, networking, and CCTV needs",
+    type: "website",
+    url: "https://bilustech.com",
+    images: [
+      {
+        url: "https://bilustech.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "BilusTech LLC Home",
+      },
+    ],
+  },
+};
+
 export default function Home() {
   return (
     <div className="w-full">
