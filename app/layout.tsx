@@ -75,10 +75,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        {/* Favicon - SVG (primary, scales perfectly) */}
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+        {/* Favicon - PNG Fallback for older browsers */}
+        <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
+        {/* Apple Touch Icon for iOS */}
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        {/* Web App Manifest for PWA */}
         <link rel="manifest" href="/site.webmanifest" />
 
         {/* Theme Color */}
