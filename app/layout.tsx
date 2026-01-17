@@ -38,23 +38,60 @@ export const metadata: Metadata = {
       "Quality electrical panels, networking equipment, and CCTV systems for businesses across the USA. Competitive pricing with expert support.",
     url: "https://bilustech.com",
     siteName: "BilusTech LLC",
-    type{/* Favicon */}
+    type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "https://bilustech.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "BilusTech Professional Low Voltage Equipment",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BilusTech LLC - Low Voltage Equipment Supplier",
+    description: "Professional electrical panels, networking equipment, and CCTV systems",
+    images: ["https://bilustech.com/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+  },
+  alternates: {
+    canonical: "https://bilustech.com",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className="scroll-smooth">
+      <head>
+        {/* Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        
+
         {/* Theme Color */}
         <meta name="theme-color" content="#003d82" />
         <meta name="msapplication-TileColor" content="#003d82" />
-        
+
         {/* Additional Meta Tags */}
         <meta name="format-detection" content="telephone=no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         <meta name="apple-mobile-web-app-title" content="BilusTech" />
-        
-        {/* Schema.org JSON-LD */}
+
+        {/* LocalBusiness Schema */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -90,7 +127,7 @@ export const metadata: Metadata = {
             }),
           }}
         />
-        
+
         {/* Organization Schema */}
         <script
           type="application/ld+json"
@@ -114,51 +151,13 @@ export const metadata: Metadata = {
                 "@type": "ContactPoint",
                 telephone: "+1-738-966-6630",
                 contactType: "Customer Service",
-              }
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
-  },
-  alternates: {
-    canonical: "https://bilustech.com",
-  },
-};
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en" className="scroll-smooth">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              name: "BilusTech LLC",
-              description: "Low voltage equipment supplier",
-              url: "https://bilustech.com",
-              telephone: "+1-738-966-6630",
-              email: "ceo@bilustech.com",
-              address: {
-                "@type": "PostalAddress",
-                streetAddress: "2201 Menaul Blvd NE, Ste A",
-                addressLocality: "Albuquerque",
-                addressRegion: "NM",
-                postalCode: "87107",
-                addressCountry: "US",
               },
-              priceRange: "$$",
-              areaServed: "US",
             }),
           }}
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen bg-gray-50`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen bg-gray-50 dark:bg-slate-900`}
       >
         <Navbar />
         <main className="flex-grow">{children}</main>
