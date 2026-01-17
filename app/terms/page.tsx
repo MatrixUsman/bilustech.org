@@ -135,12 +135,12 @@ export default function Terms() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">13. Contact Information</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">13. Contact Information</h2>
               <p>If you have questions about these Terms & Conditions, please contact us:</p>
-              <div className="bg-gray-100 p-4 rounded-lg mt-4">
-                <p className="font-semibold">BilusTech LLC</p>
-                <p>2201 Menaul Blvd NE, Ste A</p>
-                <p>Albuquerque, NM 87107, USA</p>
+              <div className="bg-gray-100 dark:bg-slate-700 p-4 rounded-lg mt-4">
+                <p className="font-semibold dark:text-white">BilusTech LLC</p>
+                <p className="dark:text-gray-300">2201 Menaul Blvd NE, Ste A</p>
+                <p className="dark:text-gray-300">Albuquerque, NM 87107, USA</p>
                 <p>
                   Email:{' '}
                   <a href="mailto:ceo@bilustech.com" className="text-blue-900 hover:text-orange-600 font-semibold">

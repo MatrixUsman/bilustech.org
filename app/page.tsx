@@ -22,7 +22,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/products"
-                className="bg-white hover:bg-gray-100 text-blue-900 px-8 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
+                className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-900 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
               >
                 View Products
               </Link>

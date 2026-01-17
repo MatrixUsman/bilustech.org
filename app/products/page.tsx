@@ -101,8 +101,8 @@ export default function Products() {
             </div>
             <div className="lg:col-span-2">
               {products.panels.map(renderCategory)}
-              <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-orange-600">
-                <p className="text-gray-700">
+              <div className="bg-blue-50 dark:bg-slate-700 p-6 rounded-lg border-l-4 border-orange-600">
+                <p className="text-gray-700 dark:text-gray-300">
                   <strong>Custom Solutions:</strong> We can help you find the right panel configuration
                   for your specific project requirements. Contact us with your specifications.
                 </p>
@@ -126,8 +126,8 @@ export default function Products() {
             </div>
             <div className="lg:col-span-2">
               {products.networking.map(renderCategory)}
-              <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-orange-600">
-                <p className="text-gray-700">
+              <div className="bg-blue-50 dark:bg-slate-700 p-6 rounded-lg border-l-4 border-orange-600">
+                <p className="text-gray-700 dark:text-gray-300">
                   <strong>Professional Installation:</strong> Our team provides comprehensive network
                   installation services with full testing and certification.
                 </p>
@@ -151,8 +151,8 @@ export default function Products() {
             </div>
             <div className="lg:col-span-2">
               {products.cctv.map(renderCategory)}
-              <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-orange-600">
-                <p className="text-gray-700">
+              <div className="bg-blue-50 dark:bg-slate-700 p-6 rounded-lg border-l-4 border-orange-600">
+                <p className="text-gray-700 dark:text-gray-300">
                   <strong>Full System Integration:</strong> We design and install complete CCTV systems
                   tailored to your security requirements and budget.
                 </p>

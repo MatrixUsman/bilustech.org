@@ -79,10 +79,10 @@ export default function About() {
                 (738) 966-6630
               </a>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow">
+            <div className="bg-white dark:bg-slate-700 p-8 rounded-lg shadow-md dark:shadow-slate-900 text-center hover:shadow-lg transition-shadow">
               <div className="text-4xl text-orange-600 mb-4">✉️</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Email</h3>
-              <a href="mailto:ceo@bilustech.com" className="text-gray-600 hover:text-blue-900 transition-colors text-lg font-semibold">
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Email</h3>
+              <a href="mailto:ceo@bilustech.com" className="text-gray-600 dark:text-gray-300 hover:text-blue-900 dark:hover:text-orange-600 transition-colors text-lg font-semibold">
                 ceo@bilustech.com
               </a>
             </div>
